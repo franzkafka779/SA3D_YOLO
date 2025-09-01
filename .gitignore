@@ -1,83 +1,168 @@
-lib/__pycache__/__init__.cpython-310.pyc
-lib/__pycache__/__init__.cpython-311.pyc
-lib/__pycache__/__init__.cpython-312.pyc
-lib/__pycache__/__init__.cpython-37.pyc
-lib/__pycache__/__init__.cpython-39.pyc
-lib/__pycache__/bbox_utils.cpython-310.pyc
-lib/__pycache__/bbox_utils.cpython-39.pyc
-lib/__pycache__/config_loader.cpython-310.pyc
-lib/__pycache__/config_loader.cpython-311.pyc
-lib/__pycache__/config_loader.cpython-312.pyc
-lib/__pycache__/config_loader.cpython-37.pyc
-lib/__pycache__/config_loader.cpython-39.pyc
-lib/__pycache__/config_misc.cpython-310.pyc
-lib/__pycache__/config_misc.cpython-311.pyc
-lib/__pycache__/config_misc.cpython-312.pyc
-lib/__pycache__/config_misc.cpython-37.pyc
-lib/__pycache__/config_misc.cpython-39.pyc
-lib/__pycache__/config_path.cpython-310.pyc
-lib/__pycache__/config_path.cpython-311.pyc
-lib/__pycache__/config_path.cpython-312.pyc
-lib/__pycache__/config_path.cpython-37.pyc
-lib/__pycache__/config_path.cpython-39.pyc
-lib/__pycache__/configs.cpython-310.pyc
-lib/__pycache__/configs.cpython-39.pyc
-lib/__pycache__/dcvgo.cpython-310.pyc
-lib/__pycache__/dcvgo.cpython-39.pyc
-lib/__pycache__/dmpigo.cpython-310.pyc
-lib/__pycache__/dmpigo.cpython-39.pyc
-lib/__pycache__/dvgo.cpython-310.pyc
-lib/__pycache__/dvgo.cpython-39.pyc
-lib/__pycache__/grid.cpython-310.pyc
-lib/__pycache__/grid.cpython-39.pyc
-lib/__pycache__/gui.cpython-310.pyc
-lib/__pycache__/gui.cpython-39.pyc
-lib/__pycache__/load_blendedmvs.cpython-310.pyc
-lib/__pycache__/load_blendedmvs.cpython-39.pyc
-lib/__pycache__/load_blender.cpython-310.pyc
-lib/__pycache__/load_blender.cpython-39.pyc
-lib/__pycache__/load_co3d.cpython-310.pyc
-lib/__pycache__/load_co3d.cpython-39.pyc
-lib/__pycache__/load_data.cpython-310.pyc
-lib/__pycache__/load_data.cpython-39.pyc
-lib/__pycache__/load_deepvoxels.cpython-310.pyc
-lib/__pycache__/load_deepvoxels.cpython-39.pyc
-lib/__pycache__/load_lerf.cpython-310.pyc
-lib/__pycache__/load_lerf.cpython-39.pyc
-lib/__pycache__/load_llff.cpython-310.pyc
-lib/__pycache__/load_llff.cpython-39.pyc
-lib/__pycache__/load_nerfpp.cpython-310.pyc
-lib/__pycache__/load_nerfpp.cpython-39.pyc
-lib/__pycache__/load_nsvf.cpython-310.pyc
-lib/__pycache__/load_nsvf.cpython-39.pyc
-lib/__pycache__/load_replica.cpython-310.pyc
-lib/__pycache__/load_replica.cpython-39.pyc
-lib/__pycache__/load_tankstemple.cpython-310.pyc
-lib/__pycache__/load_tankstemple.cpython-39.pyc
-lib/__pycache__/masked_adam.cpython-310.pyc
-lib/__pycache__/masked_adam.cpython-39.pyc
-lib/__pycache__/prepare_prompts.cpython-310.pyc
-lib/__pycache__/prepare_prompts.cpython-39.pyc
-lib/__pycache__/render_utils.cpython-310.pyc
-lib/__pycache__/render_utils.cpython-39.pyc
-lib/__pycache__/sam3d.cpython-310.pyc
-lib/__pycache__/sam3d.cpython-39.pyc
-lib/__pycache__/scene_property.cpython-310.pyc
-lib/__pycache__/scene_property.cpython-39.pyc
-lib/__pycache__/seg_dcvgo.cpython-310.pyc
-lib/__pycache__/seg_dcvgo.cpython-39.pyc
-lib/__pycache__/seg_dvgo.cpython-310.pyc
-lib/__pycache__/seg_dvgo.cpython-311.pyc
-lib/__pycache__/seg_dvgo.cpython-312.pyc
-lib/__pycache__/seg_dvgo.cpython-39.pyc
-lib/__pycache__/self_prompting.cpython-310.pyc
-lib/__pycache__/self_prompting.cpython-39.pyc
-lib/__pycache__/utils.cpython-310.pyc
-lib/__pycache__/utils.cpython-311.pyc
-lib/__pycache__/utils.cpython-312.pyc
-lib/__pycache__/utils.cpython-39.pyc
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
 logs/
+
+# Data
 data/
-iou.txt
-dependencies/
+*.npy
+*.npz
+
+# Model files (too large for git)
 yolov8x-seg.pt
+dependencies/sam_ckpt/sam_vit_h_4b8939.pth
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Results
+results/
+output/
+renders/
+
+# Checkpoints
+*.tar
+*.ckpt
+checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data
+data/
+*.npy
+*.npz
+
+# Model files (too large for git)
+yolov8x-seg.pt
+dependencies/sam_ckpt/sam_vit_h_4b8939.pth
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Results
+results/
+output/
+renders/
+
+# Checkpoints
+*.tar
+*.ckpt
+checkpoints/
+
+# Dependencies (contains embedded git repos)
+dependencies/
